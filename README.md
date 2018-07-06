@@ -1,13 +1,13 @@
 # PackageViewer  
 ![Release](https://jitpack.io/v/Atsumi3/PackageViewer.svg)  
-Android開発でのデバッグのためにパッケージ一覧表示したかった  
+Android開発でのデバッグのためにアプリ内部のディレクトリ構成を表示したかった
 
 ## 使用例
 
-どこでもいいので NKClassListActivity を呼ぶ
+どこでもいいので PackageViewerActivity を呼ぶ
 ```java
 // 例えばActivityでなら
-startActivity(new Intent(this, NKClassListActivity.class));
+startActivity(new Intent(this, PackageViewerActivity.class));
 ```
 
 ## 注意  
@@ -29,6 +29,6 @@ Projectのbuild.gradle に以下を追加してください
 ``` java
 dependencies {
   ...
-  compile 'com.github.Atsumi3:PackageViewer:$latestVersion'
+  implementation 'com.github.Atsumi3:PackageViewer:$latestVersion'
 }
 ```
