@@ -1,0 +1,4 @@
+<resources>
+    <string name="fragment_class_list_not_found_classes">パッケージ内にクラスが存在しないか、\n正しく読み取れませんでした。</string>
+    <string name="type_resource">type resource</string>
+</resources>

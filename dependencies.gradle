@@ -1,0 +1,18 @@
+ext.buildConfig = [
+        'compileSdk': 27,
+        'minSdk'    : 15,
+        'targetSdk' : 27,
+]
+
+ext.versions = [
+        'supportLibrary': '27.1.1',
+]
+
+ext.deps = [
+        'android': [
+                'support': [
+                        'appCompat': "com.android.support:appcompat-v7:${versions.supportLibrary}",
+                        'design'   : "com.android.support:design:${versions.supportLibrary}",
+                ],
+        ]
+]
